@@ -1,6 +1,6 @@
 {
   "name": "@xw-tech/jdtbk-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "封装京东开放平台sdk",
   "main": "lib/index.js",
   "publishConfig": {

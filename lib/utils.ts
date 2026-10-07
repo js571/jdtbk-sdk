@@ -11,7 +11,7 @@ const YYYYMMDDHHmmss = function (
   options: { dateSep: string; timeSep: string } = {
     dateSep: '-',
     timeSep: ':',
-  }
+  },
 ) {
   const { dateSep, timeSep } = options;
   iptDate = iptDate || new Date();
@@ -61,7 +61,7 @@ const sign = (params: Record<string, any>, secret: string) => {
     baseString += k + params[k];
   }
   baseString += secret;
-  console.log(baseString);
+  // console.log(baseString);
   return md5(baseString).toUpperCase();
 };
 
